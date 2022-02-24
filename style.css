@@ -330,7 +330,12 @@ img[data-src] { opacity: 0;}
 }
 
 .cards{ display: flex;}
-.card{ width: 22vw; border: 1px solid #111017;}
+.card{ width: 22vw; border: 1px solid #111017; transition: all 0.16s;}
+
+.card:hover{
+  transform: scale(1.07);
+}
+
 .card img{ width: 70px; margin: 12vh auto 3vh 1.8vw;}
 
 .card h3{
