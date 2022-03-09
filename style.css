@@ -417,18 +417,32 @@ img[data-src] { opacity: 0;}
 }
 
 .whitepaper p{
-  margin: 0vh 5vw 10vh 5vw;
+  width: 60vw;
+  margin: 0vh 10vw 10vh 10vw;
   padding-bottom: 4vh;
   font-weight: 100;
   letter-spacing: 1px;
   line-height: 1.1;
 }
 
+.whitepaper ul{
+  transform: translateY(-10vh);
+}
+
+.whitepaper li{
+  font-size: 16px;
+  width: 60vw;
+  margin: 0vh 10vw;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
 .whitepaper h3{
-  margin: 0vh 5vw 3vh 5vw;
+  margin: 0vh 10vw 3vh 10vw;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.1;
 }
 
-.whitepaper .introduction{ text-align: center; width: 70vw;}
+.whitepaper .introduction{ text-align: center;}
