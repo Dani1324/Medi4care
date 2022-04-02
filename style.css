@@ -445,4 +445,6 @@ img[data-src] { opacity: 0;}
   line-height: 1.1;
 }
 
+.whitepaper img{ width: 70%; margin: 0 15%; padding-bottom: 12vh;}
+
 .whitepaper .introduction{ text-align: center;}
