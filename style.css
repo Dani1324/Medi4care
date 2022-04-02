@@ -96,24 +96,24 @@ img[data-src] { opacity: 0;}
   color: #fff;
 }
 
-.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+.button:hover .btnTwo{
   left: -130px;
 }
-.button:hover .btnText{ /*When hovering over .button change .btnText*/
+.button:hover .btnText{
   margin-left : 65px;
 }
-.button:active { /*Clicked and held*/
+.button:active{
   box-shadow: 2px 3px 10px rgba(0,0,0,0.09);
 }
 
 /* Underline animation */
-.hover-underline-animation {
+.hover-underline-animation{
   display: inline-block;
   position: relative;
   color: #059DAF;
 }
 
-.hover-underline-animation:after {
+.hover-underline-animation:after{
   content: '';
   position: absolute;
   width: 100%;
@@ -126,7 +126,7 @@ img[data-src] { opacity: 0;}
   transition: transform 0.35s ease-out;
 }
 
-.hover-underline-animation:hover:after {
+.hover-underline-animation:hover:after{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -193,10 +193,7 @@ img[data-src] { opacity: 0;}
   z-index: auto;
 }
 
-.hero a:active{
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px;
-  transform: translateY(-15px);
-}
+.hero a:active{ transform: scale(0.95);}
 
 /* ! Introduction */
 .introduction{ width: 100vw;}
@@ -278,13 +275,13 @@ img[data-src] { opacity: 0;}
   padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   transition: all 0.4s;
-  width: 370px;
+  width: 240px;
   transform: translateX(-5px);
 }
 
 .product__content a p{
   color: #fff;
-  width: 340px;
+  width: 210px;
   padding-top: 10px;
   font-size: 15px;
 }
